@@ -44,11 +44,11 @@ const App = () => {
           <h2 className="text-3xl md:text-4xl font-bold mb-10">My Social Media</h2>
           <div className="flex flex-col md:flex-row justify-center gap-6">
             <a
-              href="#"
+              href="https://discord.gg/jKUaHEzF"
               className="flex items-center justify-center gap-3 bg-indigo-500 hover:bg-indigo-600 text-white py-3 px-8 rounded-xl transition-colors duration-300 w-full md:w-auto font-semibold"
             >
               <FaDiscord className="text-2xl" />
-              <span>Join Discord (coming soon)</span> 
+              <span>Join Discord</span> 
             </a>
             
             <a
