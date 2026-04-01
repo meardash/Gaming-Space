@@ -24,6 +24,53 @@ const App = () => {
         </div>
       </section>
 
+      {/* VIP Mode Section */}
+      <section className="py-16 px-6">
+        <div className="max-w-3xl mx-auto">
+          <div className="bg-gradient-to-r from-yellow-500 via-orange-500 to-red-500 p-1 rounded-3xl relative shadow-[0_0_40px_-10px_rgba(234,179,8,0.5)] transform hover:scale-[1.02] transition-all duration-500">
+            <div className="bg-slate-900 rounded-[22px] p-8 md:p-10 h-full w-full relative overflow-hidden">
+              <div className="absolute top-0 right-0 w-32 h-32 bg-yellow-500/10 rounded-full blur-3xl pointer-events-none" />
+              <div className="absolute bottom-0 left-0 w-32 h-32 bg-red-500/10 rounded-full blur-3xl pointer-events-none" />
+              
+              <div className="text-center mb-8 z-10 relative">
+                <h2 className="text-4xl md:text-5xl font-extrabold mb-3 text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 to-yellow-500 drop-shadow-md pb-1">
+                  VIP MODE 🎮
+                </h2>
+                <div className="inline-block bg-yellow-500/20 border border-yellow-500/50 text-yellow-300 font-bold px-4 py-1.5 rounded-full text-lg mb-3">
+                  Cuma 10K!
+                </div>
+                <div className="text-xl md:text-3xl text-white font-black italic tracking-wider drop-shadow-md pb-2">
+                  Main bareng gue <span className="text-yellow-400">3x match</span> 🔥
+                </div>
+              </div>
+
+              <div className="bg-slate-800/60 rounded-2xl p-6 md:p-8 border border-slate-700 backdrop-blur-sm relative z-10">
+                <h3 className="text-xl font-bold text-white mb-5 flex items-center gap-2">
+                  <span className="text-yellow-400 text-2xl">⚡</span>
+                  Cara Join:
+                </h3>
+                <ul className="space-y-4 text-slate-300">
+                  <li className="flex items-start gap-4">
+                    <div className="bg-yellow-500/20 text-yellow-400 font-bold w-7 h-7 rounded-full flex items-center justify-center shrink-0 mt-0.5">1</div>
+                    <span>Bayar lewat <strong>Sociabuzz</strong> (Tap tombol di bawah)</span>
+                  </li>
+                  <li className="flex items-start gap-4">
+                    <div className="bg-yellow-500/20 text-yellow-400 font-bold w-7 h-7 rounded-full flex items-center justify-center shrink-0 mt-0.5">2</div>
+                    <span>Wajib kasih note <strong>"username (VIP)"</strong> pas bayar!</span>
+                  </li>
+                </ul>
+
+                <div className="mt-8 text-center">
+                  <a href="https://sociabuzz.com/meardash/support" className="inline-block bg-gradient-to-r from-yellow-500 to-orange-500 text-white font-bold px-8 py-3.5 rounded-full text-lg shadow-lg shadow-orange-500/40 hover:shadow-orange-500/60 transform hover:-translate-y-1 transition-all duration-300 uppercase tracking-widest w-full md:w-auto">
+                    Gas Join Sekarang! 🚀
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Support Me Section */}
       <section className="py-16 px-6 bg-slate-800/50">
         <div className="max-w-4xl mx-auto text-center">
@@ -44,7 +91,7 @@ const App = () => {
           <h2 className="text-3xl md:text-4xl font-bold mb-10">My Social Media</h2>
           <div className="flex flex-col md:flex-row justify-center gap-6">
             <a
-              href="https://discord.gg/NHjzk8xf"
+              href="https://discord.gg/5TAESuvu"
               className="flex items-center justify-center gap-3 bg-indigo-500 hover:bg-indigo-600 text-white py-3 px-8 rounded-xl transition-colors duration-300 w-full md:w-auto font-semibold"
             >
               <FaDiscord className="text-2xl" />
